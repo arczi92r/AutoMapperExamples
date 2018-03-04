@@ -16,21 +16,34 @@ namespace ClientConsole
             Register();
             Person p = new Person();
             p.getAllPersons();
-             PersonVM pvm = Mapper.Map<PersonVM>(p);
+       
+            IEnumerable<PersonVM> result = Mapper.Map<IEnumerable<PersonVM>>(p.getAllPersonsAsync().Result);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.Wiek);
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.Surname);
+            }
+            PersonVM pvm = Mapper.Map<PersonVM>(p);
+
             IEnumerable<PersonVM> pvmx = Mapper.Map<IEnumerable<PersonVM>>(p.getAllPersons());
             foreach (var item in pvmx)
             {
-                Console.WriteLine(item.Age);
+                Console.WriteLine(item.Wiek);
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.Surname);
             }
             Console.ReadKey();
-          
+
 
         }
         public static void Register()
         {
             Mapper.Initialize(config =>
             {
-                config.CreateMap<Person , PersonVM > ();
+                // Mapping all 
+                config.CreateMap<Person, PersonVM>();
+               
             });
 
 

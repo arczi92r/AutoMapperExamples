@@ -15,11 +15,11 @@ namespace DataAccessLayer.Fake
         {
             List<Person> person = new List<Person>();
 
-            Person p1 = new Person() { Age = 12, Name = "Arek1", Surname = "kjaskdajskd" };
-            Person p2 = new Person() { Age = 14, Name = "Arek2", Surname = "fdgf" };
-            Person p3 = new Person() { Age = 123, Name = "Arek3", Surname = "kfuyi" };
-            Person p4 = new Person() { Age = 19, Name = "Arek4", Surname = "gjghj" };
-            Person p5 = new Person() { Age = 17, Name = "Arek5", Surname = "ddasdsad" };
+            Person p1 = new Person() { Age = 12, Name = "Fake324", Surname = "kjaskdajskd" };
+            Person p2 = new Person() { Age = 14, Name = "Fake123", Surname = "fdgf" };
+            Person p3 = new Person() { Age = 123, Name = "Fake123", Surname = "kfuyi" };
+            Person p4 = new Person() { Age = 19, Name = "Fake213", Surname = "gjghj" };
+            Person p5 = new Person() { Age = 17, Name = "Fake2312", Surname = "ddasdsad" };
 
             person.Add(p1);
             person.Add(p2);
