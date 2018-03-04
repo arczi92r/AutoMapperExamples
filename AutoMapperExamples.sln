@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer.Fake", "DataAccessLayer.Fake\DataAccessLayer.Fake.csproj", "{D76B6591-BA92-4176-B4E7-56E59ABFF0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{8D89FB04-2B6E-407C-AC3D-04C608D926FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D76B6591-BA92-4176-B4E7-56E59ABFF0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76B6591-BA92-4176-B4E7-56E59ABFF0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76B6591-BA92-4176-B4E7-56E59ABFF0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76B6591-BA92-4176-B4E7-56E59ABFF0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D89FB04-2B6E-407C-AC3D-04C608D926FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D89FB04-2B6E-407C-AC3D-04C608D926FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D89FB04-2B6E-407C-AC3D-04C608D926FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D89FB04-2B6E-407C-AC3D-04C608D926FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E1A75A0-59A7-4B46-B4F6-4D7FE5745BEE}
+	EndGlobalSection
+EndGlobal
