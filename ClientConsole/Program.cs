@@ -13,6 +13,7 @@ namespace ClientConsole
     {
         static void Main(string[] args)
         {
+            asda
             Register();
             Person p = new Person();
             p.getAllPersons();
